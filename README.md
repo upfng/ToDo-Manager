@@ -18,7 +18,7 @@ This is not "yet another to-do list". This is a place where your tasks stop bein
 
 ## 🚀 How to start
 
-1. Download the [pre-release](https://github.com/golybkovaa646-byte/ToDo-Manager/releases/tag/0.2)
+1. Download the [pre-release](https://github.com/golybkovaa646-byte/ToDo-Manager/releases/tag/0.3V)
 2. Run `ToDo Manager.exe`
 3. Add your first task
 4. Done. You're already more organized than 90% of people.
