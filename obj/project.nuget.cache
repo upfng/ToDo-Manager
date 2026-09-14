@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "83PAlsRzAgc=",
+  "dgSpecHash": "g8uUgNTm5tE=",
   "success": true,
-  "projectFilePath": "C:\\Users\\golyb\\OneDrive\\Документы\\GitHub\\ToDo-Manager\\ToDo Manager.csproj",
+  "projectFilePath": "C:\\Users\\golyb\\source\\repos\\ToDo Manager\\ToDo Manager\\ToDo Manager.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\golyb\\.nuget\\packages\\communitytoolkit.mvvm\\8.4.2\\communitytoolkit.mvvm.8.4.2.nupkg.sha512",
     "C:\\Users\\golyb\\.nuget\\packages\\extended.wpf.toolkit\\5.1.2\\extended.wpf.toolkit.5.1.2.nupkg.sha512",

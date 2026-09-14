@@ -40,7 +40,7 @@ namespace ToDo_Manager
             {
                 await AppHost.StartAsync();
 
-                // Initialize database with migrations
+               
                 InitializeDatabase();
 
                 var mainWindow = AppHost.Services.GetRequiredService<MainWindow>();
@@ -73,7 +73,7 @@ namespace ToDo_Manager
                 using var scope = AppHost.Services.CreateScope();
                 var context = scope.ServiceProvider.GetRequiredService<ToDoContext>();
 
-                // Apply all pending migrations
+                
                 context.ApplyMigrations();
 
                 Console.WriteLine("Database migrations applied successfully.");
@@ -82,13 +82,13 @@ namespace ToDo_Manager
             {
                 Console.WriteLine($"Database initialization error: {ex.Message}");
 
-                // If migration fails, try to recreate database
+                
                 try
                 {
                     using var scope = AppHost.Services.CreateScope();
                     var context = scope.ServiceProvider.GetRequiredService<ToDoContext>();
 
-                    // Delete and recreate database
+                    
                     context.Database.EnsureDeleted();
                     context.Database.EnsureCreated();
 
