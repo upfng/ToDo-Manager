@@ -50,6 +50,26 @@
                        Foreground="White"
                        Margin="0 0 10 0"/>
 
+
+            <Button 
+        Command="{Binding DataContext.EditTagCommand,
+                  RelativeSource={RelativeSource AncestorType=Page}}"
+        CommandParameter="{Binding}"
+        Background="Transparent"
+        Padding="6 3"
+        BorderThickness="0"
+        Cursor="Hand"
+        HorizontalAlignment="Right"
+        Margin="0 0 6 0">
+
+                <Viewbox Width="22" Height="22">
+                    <Path Data="M3,17 L3,21 L7,21 L17,11 L13,7 z 
+                    M14,6 L18,10 L20,8 L16,4 z"
+              Fill="#FFEE58"/>
+                </Viewbox>
+            </Button>
+
+
             <!-- Кнопка удаления -->
             <Button 
                     Command="{Binding DataContext.DeleteTagCommand,
